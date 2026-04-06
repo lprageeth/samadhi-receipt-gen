@@ -15,11 +15,13 @@
     "Membership Contribution",
     "General Donation ",
     "Project Donation ",
+    "Founder Contribution ",
     "Event / Fundraiser",
     "Other"
   ],
   "PAYMENT_METHODS": [
     "Zelle",
+    "Zeffy",
     "Check",
     "Cash",
     "Wise",
