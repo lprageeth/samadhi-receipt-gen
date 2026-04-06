@@ -16,6 +16,26 @@ from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
 
 
+
+def check_password():
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+
+    if not st.session_state.authenticated:
+        st.title("Samadhi Foundation – Secure Access")
+
+        password = st.text_input("Enter password", type="password")
+
+        if password == st.secrets["APP_PASSWORD"]:
+            st.session_state.authenticated = True
+            st.rerun()
+        else:
+            if password:
+                st.error("Incorrect password")
+
+        st.stop()
+
+check_password()
 # -----------------------------
 # Apps Script (Google Sheet log + receipt numbering)
 # -----------------------------
