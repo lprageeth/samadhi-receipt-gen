@@ -1,0 +1,35 @@
+{
+  "AUTHORIZED_OFFICERS": [
+    {
+      "label": "Delon Reyhart – Treasurer",
+      "name": "Delon Reyhart",
+      "title": "Treasurer"
+    },
+    {
+      "label": "Sasith Rajasooriya – President",
+      "name": "Sasith Rajasooriya",
+      "title": "President"
+    }
+  ],
+  "PURPOSE_OPTIONS": [
+    "Membership Contribution",
+    "General Donation ",
+    "Project Donation ",
+    "Event / Fundraiser",
+    "Other"
+  ],
+  "PAYMENT_METHODS": [
+    "Zelle",
+    "Check",
+    "Cash",
+    "Wise",
+    "Bank Transfer",
+    "Credit Card",
+    "Other"
+  ],
+  "MEMBERSHIP_TIERS": [
+    "Daana Samadhi Member",
+    "Pathway Samadhi Member",
+    "Lotus Samadhi Member"
+  ]
+}
