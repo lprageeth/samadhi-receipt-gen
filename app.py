@@ -494,7 +494,7 @@ def make_receipt_pdf(
     sig_y = 2.25 * inch
 
     c.setFont("Helvetica", 11)
-    c.drawString(left, sig_y + 0.72 * inch, "Authorized Signatory:")
+    c.drawString(left, sig_y + 0.72 * inch, "Authorized by:")
 
     sig_line_x0 = left + 1.35 * inch
     sig_line_y = sig_y + 0.66 * inch
